@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 8fr;
+}
+.header{
+    grid-area:1/1/2/4;
+    background-color:aqua;
+}
+.quote{
+    grid-column: span 3;
+    background-color: Yellow;
+    color: red;
+    font-size:xx-large; 
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+.sidecontent{
+    border: solid;
+}
+.content{
+    border: solid;
+}
+.right{
+    border: solid;
+}
+.nav ul {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.nav li{
+    list-style-type:none;
+    padding-top: 20px;
+}
+.nav a{
+    font-size: 23px;
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    background-color: midnightblue;
+    padding:10px;
+    color: oldlace;
+}
+
+.nav a:nth-child(2):hover select{
+    display:block;
+}   
+.Universities{
+    display:grid;
+    height: 100vh;
+    background-image: radial-gradient(turquoise,#176fa1,darkviolet,magenta);
+}
+.fifth p{
+    font-size: 25px;
+    font-weight: bolder;
+    color:white
+}
+.hdimg1{
+    padding-left:200px;
+    padding-bottom: 20px;
+}
+nav ul:hover select{
+    display: block;
+}
+.header1 {
+    grid-column:span 2;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding:5px;
+    padding-left:155px;
+}
+.header2{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding:5px;
+    text-align: center;
+}
+.header5{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding:5px;
+}
+.kyg{
+    font-size: 24px;
+    padding: 5px;
+}
+.sidecontent h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.MX{
+    padding-top: 5px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 15px;
+}
+.logoimg{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logoimg img{
+    border-radius: 10px;
+}
+
+.quote img{
+    width:35px;
+    height:35px;
+}
+.hdimg1 img{
+    float:left;
+    padding-right:190px;
+}
+.hdlogo {
+    display:block;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    padding-top: 75px;
+}
+.first{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.first img{
+    width:100%;
+    align-items: center;
+}
+.MITimg1{
+    grid-column: span 2;
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;   
+}
+.MITimg1 img{
+    width: 100%;
+    margin: 2%;
+}
+.MITlogo{
+    display:block;
+    width: 89%;
+    margin:0%;
+    margin-top: 3%;
+    margin-left: 2%;
+    padding-left: 375px;
+}
+.abt{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+    grid-column: span 2;
+}
+.address1{
+    padding-left: 35px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.MITlook{
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 18px;
+}
+.MITlook p{
+    font-size: 18px;
+}
+.interestMIT{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    grid-column: span 2;
+
+}
+.UOimg1 {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+}
+.UOimg1 img{
+    max-width: 100%;
+    height: 450px;
+}
+.UOlogo img{
+    width: 38%;
+    height: 500px;
+}
